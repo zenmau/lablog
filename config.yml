@@ -14,20 +14,24 @@ menu:
       weight: 10
     - name: Categories
       url: categories/
-      weight: 10
+      weight: 2
     - name: Tags
       url: tags/
-      weight: 10
+      weight: 3
     - name: Posts
       url: posts/
-      weight: 10
+      weight: 1
+    - name: Archives
+      url: archives/
+      weight: 5
       
 params:
+  env: prodution
   author: Maurício Ferraz
   title: Lablog
   DateFormat: "02-01-2006"
   defaultTheme: auto
-  
+  math: true
   homeInfoParams:
     Title: Lablog
     Content: Um blog para jogar minhas coisas
@@ -37,7 +41,12 @@ params:
   
   comments: false
   showtoc: true
-  tocope: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  displayFullLangName: true
   
 
 markup:

@@ -1,4 +1,4 @@
 ---
-title: "Buscar"
+title: "Search"
 layout: "search"
 ---
