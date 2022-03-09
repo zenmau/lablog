@@ -1,4 +1,5 @@
-baseURL: https://zenmau.github.io/lablog/
+baseURL: ""
+# https://zenmau.github.io/lablog/
 languageCode: pt-br
 title: Lablog
 theme: "PaperMod"
@@ -48,6 +49,11 @@ params:
   ShowPostNavLinks: true
   displayFullLangName: true
   
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 markup:
     goldmark:
