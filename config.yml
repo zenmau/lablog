@@ -1,0 +1,47 @@
+baseURL: http://example.org/
+languageCode: pt-br
+title: Lablog
+theme: "PaperMod"
+paginate: 5
+
+enableEmoji: true
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Blog
+      url: posts/
+      weight: 10
+      
+params:
+  author: Maurício Ferraz
+  title: Lablog
+  DateFormat: "02-01-2006"
+  defaultTheme: auto
+  
+  homeInfoParams:
+    Title: Lablog
+    Content: Um blog para jogar minhas coisas
+  socialIcons:
+    - name: Instagram
+      url: "https://www.instagram.com/maus.p.doc/"
+  
+  comments: false
+  showtoc: true
+  tocope: true
+  
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
