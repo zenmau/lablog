@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "/index.json");
+    xhr.open('GET', `/${window.location.href.split('/', -1)[3]}/index.json`);
     xhr.send();
 }
 
